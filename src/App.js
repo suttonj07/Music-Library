@@ -6,7 +6,7 @@ import { SongContext } from './components/SongContext';
 import { SearchContext } from './components/SearchContext';
 import AlbumView from './components/AlbumView';
 import ArtistView from './components/ArtistView';
-// import { Fragment } from 'react/cjs/react.production.min'
+import { Fragment } from 'react/cjs/react.production.min'
 
 function App() {
   let [message, setMessage] = useState('Search for Music!')
